@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.sect-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.pic-txt {
+  border: 1px solid black;
+}
+
+.pic {
+  height: 65%;
+}
+
+.txt {
+  height: 35%;
+}
+
+.sect-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-b, .txt-l {
+  flex: 1;
+}
