@@ -3,6 +3,39 @@
   margin: 0;
   padding: 0;
   font-family: monospace;
+  line-height: 1.3rem;
+}
+
+img {
+  height: 10rem;
+  width: 15rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.destxt {
+  font-size: larger;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sections {
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
 .sect-1 {
@@ -10,26 +43,80 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+  padding: 0 -2rem;
 }
 
-.pic-txt {
+.sect-1 .pic-txt {
+  flex: 1;
+  margin: 0 1rem;
   border: 1px solid black;
+  margin-bottom: 2rem;
+  max-width: 24%;
+  max-height: 46rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 .pic {
-  height: 65%;
+  flex: 2;
+  min-height: 20rem;
+  object-fit: cover;
 }
 
 .txt {
-  height: 35%;
+  flex: 1;
+  padding: 1.5rem 1.2rem;
+}
+
+h3 {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .sect-2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  border: 1px solid black;
+  min-height: 300px;
 }
 
-.pic-b, .txt-l {
+.pic-b {
   flex: 1;
+  background-image: url('Assets/images/img2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.txt-l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  padding: 0 15rem;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.contact-sect {
+  display: flex;
+}
+
+.nav-li {
+  flex: 1;
+}
+
+.cont-div {
+  flex: 3;
 }
